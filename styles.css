@@ -1,0 +1,207 @@
+
+.head-nav {
+    background-color: lightgreen;
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.head-nav img {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    left : 10%;
+    top : 0%
+}
+
+#contact {
+    position: absolute;
+    left : 89%;
+    background: none;
+    top : 20%;
+    border-color: white;
+    font-size: large;
+    background-color: white;
+    
+}
+#maps {
+    position: absolute;
+    left : 94%;
+    background: none;
+    top: 20%;
+    border-color: white;
+    background-color: white;
+    font-size: large;
+    
+}
+.image-container {
+    height: 450px;
+    width: 100%;
+    background-size: 100% 100%;
+    margin-left: 0;
+    background-image : url('pizza-background.jpg');
+    background-repeat: no-repeat;
+}
+.image-container .nav {
+    height: 30px;
+    width : 1535px;
+    background-color: antiquewhite;
+    position: absolute;
+    left : 18%;
+    top: 5%;
+}
+.image-container .peperoni {
+    position: absolute;
+    top: 50%;
+    left : 70%;
+    height: 300px;
+}
+.image-container .capricciosa {
+    position: absolute;
+    top: 50%;
+    left : 15%;
+    height: 300px;
+}
+.middle-text {
+    position: absolute;
+    top: 60%;
+    left : 40%;
+    font-size: 20px;
+    width: 350px;
+}
+.first-pizza-info .first-pizza{
+    position: absolute;
+    left: 75%;
+    top: 80%;
+    font-size: 30px;
+    font-weight: bold;
+   
+}
+.first-pizza-info p2{
+    position: absolute;
+    left: 70%;
+    top: 85%;
+    font-size: 20px;
+}
+.second-pizza-info p1{
+    position: absolute;
+    left: 20%;
+    top: 80%;
+    font-size: 30px;
+    font-weight: bold;
+}
+.second-pizza-info p2{
+    position: absolute;
+    left: 15%;
+    top: 85%;
+    font-size: 20px;
+}
+/* Capricciosa Pizzas */
+.small-capricciosa,
+.medium-capricciosa,
+.large-capricciosa {
+    position: absolute;
+    top: 95%;
+    height: 3vh;
+    width: 50px;
+    background-color :darkred;
+    color: white;
+    cursor: pointer;
+}
+
+.small-capricciosa {
+    left: 18%;
+}
+
+.medium-capricciosa {
+    left: 21%;
+}
+
+.large-capricciosa {
+    left: 24%;
+}
+
+/* Peperoni Pizzas */
+.small-peperoni,
+.medium-peperoni,
+.large-peperoni {
+    position: absolute;
+    top: 95%;
+    height: 3vh;
+    width: 50px;
+    background-color :darkred;
+    color : white;
+    cursor: pointer;
+}
+
+.small-peperoni {
+    left: 72%;
+}
+
+.medium-peperoni {
+    left: 75%;
+}
+
+.large-peperoni {
+    left: 78%;
+}
+
+.cart {
+    position: fixed;
+    top: 0;
+    left: 100% ;
+    width: 300px;
+    background-color: #453E3B;
+    height: 100vh;
+    transition: 0.5s;
+
+}
+.cart h1 {
+    color: #E8BC0E;
+    font-weight: 100;
+    margin : 0;
+    padding: 0 , 20px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+.cart .checkOut {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+.cart .checkOut div {
+    background-color: #E8BC0E;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+
+
+}
+.cart .checkOut div:nth-child(2){
+    background-color: #1C1F25;
+    color: #fff;
+
+}
+.active .cart{
+    left:calc(100% - 300px);
+
+}
+
+.cartPic {
+    height: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+    cursor: pointer;
+
+}
